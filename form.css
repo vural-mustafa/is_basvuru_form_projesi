@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label, input, textarea {
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 250px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Stil form elemanlarını düzenlemek için */
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* İsim, E-posta ve Mesaj etiketlerini sola hizala */
+label {
+    text-align: left;
+}

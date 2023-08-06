@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>İş Başvuru Formu</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <h1>İş Başvuru Formu</h1>
+        <form id="jobApplicationForm">
+            <label for="name">İsim:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">E-posta:</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Mesaj:</label>
+            <textarea id="message" required></textarea>
+
+            <button type="submit">Başvur</button>
+        </form>
+
+        <div id="jsonOutput"></div>
+    </div>
+
+    <script src="form.js"></script>
+</body>
+</html>
